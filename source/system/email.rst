@@ -1,4 +1,4 @@
-Setting up outbound Email Server
+Setting up Outbound Email Server
 ================================
 
 This function supports Email alerts, configurable under administrator profiles, and log alerts.
