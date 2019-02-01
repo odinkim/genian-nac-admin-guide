@@ -15,6 +15,7 @@ registry entries, and services, that aids you in detecting and dealing with anom
 .. toctree::
    :maxdepth: 1
 
-   endpoints/agent-defaults
+   endpoints/agent-default
+   endpoints/agent-node-policy
    endpoints/controlling-windows
    endpoints/controlling-macos
