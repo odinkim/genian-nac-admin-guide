@@ -12,7 +12,7 @@ You may see the results in a variety of ways.
       
 Furthermore, you can be notified about any pre-defined anomalies that are detected. 
 
-For notifying a user about the anomalies detected, please see :doc:`/logs/notification-event` 
+For notifying a user about the anomalies detected, please see :doc:`/logs/sending-events` 
 
 Identify Nodes through Policy and Detect them through New Node Policy
 ---------------------------------------------------------------------

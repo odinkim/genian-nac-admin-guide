@@ -1,5 +1,5 @@
-Sending Notification Using Webhook
-==================================
+Sending Events Using Webhook
+============================
 
 You can choose to have a URL page called upon when a specific log is generated.
 

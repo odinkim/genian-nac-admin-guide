@@ -1,7 +1,7 @@
-Sending Notification Using Syslog
-=================================
+Sending Events Using Syslog
+===========================
 
-You can send notifications using Syslog information when a specific log is generated.
+You can send events using Syslog information when a specific log is generated.
 
 #. Go to **Log** in the top panel 
 #. Go to **Log > Log Filter** in the left **Log** panel

@@ -1,5 +1,5 @@
-Define Event Criteria for Notification
-======================================
+Define Event Criteria for Export
+================================
 
 Use an existing Log Filter or Create a new one
 ----------------------------------------------

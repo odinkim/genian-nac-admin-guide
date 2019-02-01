@@ -3,6 +3,7 @@ Managing Logs and Events
 
 Policy Server provides a centralized Log View.
 Policy Server collects system and security related events to generate logs from endpoint devices, network devices, and other third-party devices.
+From here, Logs can then be sent outwards to another storage location, such as a SIEM solution. 
 
 Log view consists of four main sections.
 
@@ -17,6 +18,6 @@ Log view consists of four main sections.
    :maxdepth: 1
 
    logs/logs
-   logs/notification
+   logs/sending-events
    logs/receiving-events
    logs/report

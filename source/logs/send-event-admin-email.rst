@@ -1,8 +1,8 @@
-Sending Notification Using Email
-================================
+Sending Events to Admin Email
+=============================
 
-Send Log Notification to admin Email
-------------------------------------
+Send Log  to admin Email
+------------------------
 
 .. note:: Outbound email and admin email notification settings must both be configured.See :doc:`/system/email` , :doc:`/system/admin-account`
 

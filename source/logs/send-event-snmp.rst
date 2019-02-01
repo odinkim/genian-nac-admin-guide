@@ -1,5 +1,5 @@
-Sending Notification Using SNMP
-===============================
+Sending Events Using SNMP
+=========================
 
 You can send Events to your SNMP Management System by configuring SNMP Notifications.
 
