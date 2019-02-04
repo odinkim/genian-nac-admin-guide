@@ -13,6 +13,8 @@ Users Authenticate against the local database created within the Genians Policy 
 **Externally** (*Active Directory, RADIUS, IMAP, POP3, SMTP, CSV*)
 Genians can integrate with External Authentication sources to permit user access upon successful login using proper credentials.
 
+* Version 5.0.16: Cloud hosted Policy Server Authentication and Synchronization against private IP database currently not supported. 
+
 .. toctree::
    :maxdepth: 1
 
