@@ -35,8 +35,8 @@ Auto-Logout
 
 * Specify length of **Hour(s)**, **Day(s)**, **Week(s)**, or **Month(s)** a node can remain authenticated after a user login. 
 
-Auto-Logout for Node Down
----------------------------
+Auto-Logout for Down Node
+-------------------------
 
 * Specify length of **Minute(s)**, **Hour(s)**, **Day(s)**, **Week(s)**, or **Month(s)** a node can remain authenticated not being detected.
 
