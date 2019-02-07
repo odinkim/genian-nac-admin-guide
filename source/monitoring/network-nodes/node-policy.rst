@@ -11,7 +11,7 @@ Hostname Policy for New Node
  * Select: **On**,or **Off** 
  * If **On**, select Hostname Template. 
 
-Deleting Node Down
+Deleting Down Node
 ------------------
 
 * Specify: **Hour(s)**, **Day(s)**, **Week(s)**, or **Month(s)** from node downtime start to delete the node from the policy server. Enter **0** to disable.
