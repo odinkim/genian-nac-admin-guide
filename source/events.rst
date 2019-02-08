@@ -12,6 +12,8 @@ Log view consists of four main sections.
 - Panel C: Status and Filter.
 - Window D: Result window of your searching and filtering.
 
+Log display and generation options may be configured under **General > Log** in the **Preferences** section. 
+
 .. image:: /images/Log-View-Lettered.png
    
 .. toctree::
