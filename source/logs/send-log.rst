@@ -17,7 +17,7 @@ Integrate with splunk using the following process:
 1. In Splunk configure a Local UDP input under **Settings > Data Inputs**
 2. Configure your desired **data input port** and enter your Genians policy server IP into the "Only accept connection from" section. (optional)
 3. In Genians NAC, select syslog under the log filter of your choice.
-4. For **Protocol**, select **UDP**, and for **server port**, select the **data input port** you defined on Splunk.
+4. Input the **Sever Address** of your splunk server. For **Protocol**, select **UDP**, and for **server port**, select the **data input port** you defined on Splunk.
 5. In the SYSLOG message section, enter the value {_DATETIME},LOGTYPE={_LOGTYPE},LOGID={_LOGID},IP={_IP},MAC={_MAC},MSG={_FULLMSG}, DETAIL={_DETAILMSG} 
  
  * This is necessary for the proper display of information in Splunk.
