@@ -10,7 +10,4 @@ to third-party security products such as SIEM using various protocols.
    :maxdepth: 1
 
    define-send-event
-   send-event-admin-email
-   send-event-snmp
-   send-event-syslog
-   send-event-webhook
+   send-log

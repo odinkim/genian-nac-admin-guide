@@ -1,11 +1,7 @@
 Receiving Events
 ================
 
-Policy Server can receive Syslog information and SNMP traps from third party security solutions and networking devices through RESTful API.
+Receiving Syslog and SNMP Traps
+-------------------------------
 
-.. toctree::
-   :maxdepth: 1
-
-   receive-syslog
-   receive-snmp
-   
+These options may be found under **General > Log** in the **Preferences** section. 
