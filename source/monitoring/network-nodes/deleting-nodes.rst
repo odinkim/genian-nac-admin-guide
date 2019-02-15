@@ -12,7 +12,7 @@ Remove Inactive Nodes Through Policy
 #. Go to **Policy** in the top panel
 #. Go to **Policy > Node Policy** in the left Policy panel
 #. Find and click **Policy Name** in the Node Policy window
-#. Find **Management Policy > Deleting Node Down** section in the Node Policy window
+#. Find **Management Policy > Deleting Down Node** section in the Node Policy window
 #. Set a time for deleting Nodes after a period of inactivity (*If a Node is offline for a certain period of time, it will be deleted automatically. Default is 30 days*)
 #. Click **Update**
 
