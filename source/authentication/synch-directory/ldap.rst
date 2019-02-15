@@ -27,12 +27,12 @@ Under **Database**
 #. For **Server Address**, type IP Address or FQDN of Active Directory server
 #. For **Server Port**, type AD LDAP service port. by default LDAP port is ``389``. if you use LDAPS (LDAP over SSL) default port is ``636``.
 #. For **SSL Connection**, select ``On`` if you use LDAPS.
-#. For **DB Username**, type Bind DN of Active Directory. normally, you can use email format like administrator@company.com
+#. For **DB Username**, type Bind DN of Active Directory. normally, you can use email format like ``administrator@company.com``
 #. For **DB Password**, type Bind DN user's password
 
 Under **User Information**
 
-#. For **Table Name**, type base distinguished name (DN) of users. normally, CN=Users,DC=company,DC=com
+#. For **Table Name**, type base distinguished name (DN) of users. normally, ``CN=Users,DC=company,DC=com``
 #. For **Where Clause for DB**, type ``(&(objectClass=user)(objectCategory=person))`` for filtering person object.
 #. For **Column Name for Username**, type ``sAMAccountName``
 #. For **Column Name for Full Name**, type ``displayName``
@@ -41,7 +41,7 @@ Under **User Information**
 
 Under **Department Information**
 
-#. For **Table Name**, type base distinguished name (DN) of organizationUnit (OU). normally, DC=company,DC=com
+#. For **Table Name**, type base distinguished name (DN) of organizationUnit (OU). normally, ``DC=company,DC=com``
 #. For **Where Clause for DB**, type ``objectClass=organizationalUnit`` for filtering OU object.
 #. For **Sort Criteria**, type ``@NAMEPATH`` for ordering based on department name.
 #. For **Column Name for Department ID**, type ``distinguishedName``
