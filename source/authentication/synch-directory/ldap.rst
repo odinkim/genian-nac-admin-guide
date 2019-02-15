@@ -49,14 +49,4 @@ Under **Department Information**
 #. For **Column Name for Parent Dept.**, type ``$distinguishedName, SUBSTRING($,LOCATE(',',$)+1)``
 #. Click **Save** at the bottom
 
-Testing Synchronization
------------------------
-
-#. Go to **Preferences** in the top panel
-#. Go to **User Authentication > Data Synchronization** in the left Preferences panel
-#. Select checkbox of desired configuration.
-#. Click **Tasks > Synchronize Now**
-
-You can check result through Logs
-
 .. attention:: Since the Active directory does not provide the userPassword attribute, the user password can not be synchronized. Therefore, you must set the integration separately. See :doc:`../integrate-external/active-directory` 

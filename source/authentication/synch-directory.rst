@@ -11,3 +11,13 @@ Additional information can be used to create user groups or use them as node gro
    synch-directory/rdbms
    synch-directory/ldap
    synch-directory/csv
+
+Testing Synchronization
+-----------------------
+
+#. Go to **Preferences** in the top panel
+#. Go to **User Authentication > Data Synchronization** in the left Preferences panel
+#. Select checkbox of desired configuration.
+#. Click **Tasks > Synchronize Now**
+
+You can check result through Logs
