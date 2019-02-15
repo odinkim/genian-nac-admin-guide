@@ -3,7 +3,10 @@ LDAP (Active Directory)
 
 .. note:: This feature requires Enterprise Edition
 
-Genian NAC can use an LDAP directory as a source of user information. LDAP synchronization allows user accounts to be created locally and used for administration or policy.
+Genian NAC can use an LDAP directory as a source of user and organization information. LDAP synchronization allows user accounts to be created locally
+and used for administration or policy. LDAP synchronization is commonly used with Microsoft Active Directory (AD) systems.
+
+The following describes how to synchronize user and organizational information based on AD.
 
 Creating Synchronization
 ------------------------
@@ -29,11 +32,22 @@ Under **Database**
 
 Under **User Information**
 
-#. For **Table Name**, type distinguished name (DN) of users. normally, CN=Users,DC=company,DC=com
-#. For **Where Clause for DB**, type **objectClass=person** for filtering person object.
+#. For **Table Name**, type base distinguished name (DN) of users. normally, CN=Users,DC=company,DC=com
+#. For **Where Clause for DB**, type **(&(objectClass=user)(objectCategory=person))** for filtering person object.
 #. For **Column Name for Username**, type **sAMAccountName**
 #. For **Column Name for Full Name**, type **displayName**
+#. For **Column Name for Department**, type **$distinguishedName, IF(LOCATE("OU=",$)>0,SUBSTRING($,LOCATE(",",$)+1),"")**
 #. For any other extra information, you can use LDAP attribute name for each column name.
+
+Under **Department Information**
+
+#. For **Table Name**, type base distinguished name (DN) of organizationUnit (OU). normally, DC=company,DC=com
+#. For **Where Clause for DB**, type **objectClass=organizationalUnit** for filtering OU object.
+#. For **Sort Criteria**, type **@NAMEPATH** for ordering based on department name.
+#. For **Column Name for Department ID**, type **distinguishedName**
+#. For **Column Name for Department**, type **name**
+#. For **Column Name for Parent Dept.**, type **$distinguishedName, SUBSTRING($,LOCATE(",",$)+1)**
+#. Click **Save** at the bottom
 
 Testing Synchronization
 -----------------------
