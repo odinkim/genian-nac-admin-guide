@@ -28,6 +28,6 @@ Create New Node Group
 ---------------------
 
 #. This node group will be defined as any node where the authenticated user, is one of the user group we have created. 
-#. Select the **Policy** tab at the top of the screen and click **Group > Node** in thethe left menu panel. Select **Task > Create** to create a new policy group. 
+#. Select the **Policy** tab at the top of the screen and click **Group > Node** in the left menu panel. Select **Task > Create** to create a new policy group. 
 #. Under **Condition** , select **Add**, define **Options** as **Auth User**, **Operater** as **is one of,** and **value** as the user group previously created.  Click **Add,** then click **Save.** Select **Apply** in the top right corner of the view pane.
 
