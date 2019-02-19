@@ -38,7 +38,7 @@ Find Nodes by Node Group
    - **Compliance**
    - **Uncategorized**
 
-.. note:: These are provided by default, but you can create others by going to :doc:`/monitoring/network-nodes/creating-nodegroups`.
+.. note:: These are provided by default, but you can create others by going to :doc:`/monitoring/network-nodes/creating-node-groups`.
 
 Edit and Create Node Categories for Sensors and Node Groups
 -----------------------------------------------------------

@@ -28,3 +28,12 @@ Under **General**
 
 .. _Policy Group: https://www.genians.com/concepts/#node-groups
 .. _Status Group: https://www.genians.com/concepts/#node-groups
+
+More examples:
+--------------
+.. toctree::
+   :maxdepth: 1
+
+   creating/custom-user-group
+
+   
