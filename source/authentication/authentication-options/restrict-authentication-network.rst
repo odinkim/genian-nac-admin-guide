@@ -17,5 +17,5 @@ Create New Node Policy
 #. Fill out the Node policy wizard up to the **Node Group** tab using standard procedure as shown in :doc:`/monitoring/network-nodes/node-policy`.
 #. Under **Node Group** select the node group created by the Network Sensor IP.
 #. Under **Policy Preferences > Auth User Group,** select the ``User Group`` that will be allowed to authenticate on nodes impacted by this policy.
-#. Click **Apply** in the top right corner of the management pane.
+#. Click **Apply** in the top right corner of the view pane.
 
